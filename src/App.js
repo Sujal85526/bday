@@ -265,11 +265,11 @@ export default function App() {
   };
 
   const pickStaticFrame = useCallback((rms) => {
-    if (rms < 0.02) return null;
-    if (rms >= 0.30) return cake20;
-    if (rms >= 0.22) return cake40;
-    if (rms >= 0.15) return cake60;
-    if (rms >= 0.08) return cake80;
+    if (rms < 0.01) return null;
+    if (rms >= 0.12) return cake20;
+    if (rms >= 0.09) return cake40;
+    if (rms >= 0.06) return cake60;
+    if (rms >= 0.03) return cake80;
     return cake100;
   }, []);
 
