@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bday/static/css/main.6a81d434.css",
+    "main.js": "/bday/static/js/main.ae86f715.js",
+    "static/js/453.0d1adbee.chunk.js": "/bday/static/js/453.0d1adbee.chunk.js",
+    "index.html": "/bday/index.html",
+    "static/media/bdayaudo.mp3": "/bday/static/media/bdayaudo.c363bd88a78ee4044f4b.mp3",
+    "main.6a81d434.css.map": "/bday/static/css/main.6a81d434.css.map",
+    "main.ae86f715.js.map": "/bday/static/js/main.ae86f715.js.map",
+    "453.0d1adbee.chunk.js.map": "/bday/static/js/453.0d1adbee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a81d434.css",
+    "static/js/main.ae86f715.js"
+  ]
+}
