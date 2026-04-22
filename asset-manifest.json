@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/bday/static/css/main.6a81d434.css",
-    "main.js": "/bday/static/js/main.997a51a8.js",
+    "main.css": "/bday/static/css/main.4a8b46b9.css",
+    "main.js": "/bday/static/js/main.bbc34e45.js",
     "static/js/453.0d1adbee.chunk.js": "/bday/static/js/453.0d1adbee.chunk.js",
+    "static/media/supiiii.png": "/bday/static/media/supiiii.e26be134b4d3b2026f54.png",
     "static/media/bdayaudo.mp3": "/bday/static/media/bdayaudo.3e0c7eec94df84220422.mp3",
-    "static/media/matthew.jpg": "/bday/static/media/matthew.e4b2de4d2d096d34b965.jpg",
-    "static/media/birthdaytext.png": "/bday/static/media/birthdaytext.39a9b990e669b56331ae.png",
     "index.html": "/bday/index.html",
-    "main.6a81d434.css.map": "/bday/static/css/main.6a81d434.css.map",
-    "main.997a51a8.js.map": "/bday/static/js/main.997a51a8.js.map",
+    "main.4a8b46b9.css.map": "/bday/static/css/main.4a8b46b9.css.map",
+    "main.bbc34e45.js.map": "/bday/static/js/main.bbc34e45.js.map",
     "453.0d1adbee.chunk.js.map": "/bday/static/js/453.0d1adbee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a81d434.css",
-    "static/js/main.997a51a8.js"
+    "static/css/main.4a8b46b9.css",
+    "static/js/main.bbc34e45.js"
   ]
 }
