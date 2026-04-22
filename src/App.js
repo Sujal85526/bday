@@ -230,7 +230,7 @@ import cake80 from "./assets/80.png";
 import cake60 from "./assets/60.png";
 import cake40 from "./assets/40.png";
 import cake20 from "./assets/20.png";
-import birthdayText from "./assets/birthdaytext.png";
+import supiiiiPhoto from "./assets/supiiii.png";
 import "./App.css";
 import Confetti from "./Confetti";
 import { useEffect, useRef, useState, useCallback } from "react";
@@ -360,12 +360,6 @@ export default function App() {
 
   const [celebrating, setCelebrating] = useState(false);
   const [showMatthew, setShowMatthew] = useState(false);
-  let matthewSrc = null;
-  try {
-    matthewSrc = require("./assets/matthew.jpg");
-  } catch (e) {
-    matthewSrc = null;
-  }
 
   useEffect(() => {
     if (staticFrame === cake20) {
@@ -377,7 +371,11 @@ export default function App() {
   return (
     <div className="App">
       <audio ref={audioRef} src={birthdaySong} loop />
-      <img src={birthdayText} alt="Happy Birthday" className="birthdayText" draggable={false} />
+      <div className="birthdayText">
+        <div className="bday-title">Happy Birthday</div>
+        <div className="bday-title">SUPIIIII 🎂</div>
+        <div className="bday-sub">your friends love you supiii chupiii pizzzaaaa</div>
+      </div>
       <div className="cakeLoop">
         {staticFrame ? (
           <PixelAnimator
@@ -431,13 +429,8 @@ export default function App() {
           tabIndex={-1}
         >
           <div className="matthew-card">
-            {matthewSrc ? (
-              <img src={matthewSrc} alt="SUPIIIII" />
-            ) : (
-              <div style={{ color: "white", padding: 24, fontSize: 20 }}>
-                SUPIIIII
-              </div>
-            )}
+            <img src={supiiiiPhoto} alt="SUPIIIII" />
+            <div className="matthew-caption">your friends love you supiii chupiii pizzzaaaa 🎉</div>
           </div>
         </div>
       )}
