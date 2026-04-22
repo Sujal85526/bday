@@ -10,8 +10,12 @@ body,
 .App {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 24px;
+  padding: 24px 16px;
+  box-sizing: border-box;
   background-color: black;
 }
 
@@ -58,9 +62,10 @@ body,
 
 .bday-sub {
   font-family: 'Courier New', monospace;
-  font-size: clamp(0.9rem, 2vw, 1.4rem);
+  font-size: clamp(0.85rem, 3.5vw, 1.4rem);
   color: #5ac8fa;
   letter-spacing: 2px;
+  padding: 0 8px;
 }
 
 :root {
@@ -75,7 +80,7 @@ body,
   position: relative;
   transform: translateY(calc(-1 * var(--cake-overlap))) translateX(var(--cake-offset-x));
   z-index: 2;
-  padding-right: 200px;
+  padding-right: clamp(0px, 10vw, 200px);
 }
 .cake,
 .cake img,
@@ -140,6 +145,7 @@ body,
   border-radius: 12px;
   padding: 8px;
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   transform-origin: center center;
